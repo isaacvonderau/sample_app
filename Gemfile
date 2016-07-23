@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'bootstrap-sass', '3.3.6'
 gem 'rails', '5.0.0'
 gem 'puma', '3.4.0'
 gem 'sass-rails', '5.0.5'
@@ -11,6 +11,7 @@ gem 'turbolinks', '5.0.0'
 gem 'jbuilder', '2.4.1'
 
 group :development, :test do
+  gem 'rails-controller-testing'
   gem 'sqlite3', '1.3.11'
   gem 'byebug', '9.0.0', platform: :mri
 end
